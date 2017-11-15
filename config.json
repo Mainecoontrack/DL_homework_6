@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Чёрная София"
+  },
+  "text": {
+    "more": "На графе мои друзья фактически уложены по сообществам. В целом, получилось 3 группы: друзья из моего родного города(в свою \nочередь также распреляется на группы из родной школы, музыкальной школы, родственников), мои однокурсники и друзья из\n общежития. Цвет вершин означает город, указанный на страничке. В группе друзей из моего родного города \nбольшая часть кружков - желтого цвета (Симферополь), ребят из общежития и с моего курса - оранжевый (город не указан) и красный \n(Москва), что соответствует содержанию укладки графа. Некоторые мои интернет-друзья или случайные знакомые не имеют связей \nс остальными друзьями, что тоже логично.",
+    "intro": "Этот граф показывает моих друзей ВК и связи (их дружбу ВК) между ними. Цвет\nвершин графа определяется городом, указанным на странице ВК данного друга. \nДрузья сгруппированы по сообществам, по наибольшему количеству связей между\nдруг другом. \n\n\n\n\n\n\n\n\n\n\n ",
+    "title": "Граф друзей"
+  },
+  "legend": {
+    "edgeLabel": "связи между друзьями",
+    "colorLabel": "город",
+    "nodeLabel": "мои друзья вконтакте"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
